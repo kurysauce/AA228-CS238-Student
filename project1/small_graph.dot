@@ -1,0 +1,14 @@
+digraph G {
+    age -> portembarked;
+    age -> numparentschildren;
+    age -> passengerclass;
+    age -> numsiblings;
+    portembarked -> fare;
+    portembarked -> numparentschildren;
+    numparentschildren -> numsiblings;
+    passengerclass -> sex;
+    passengerclass -> numsiblings;
+    passengerclass -> survived;
+    sex -> survived;
+    numsiblings -> survived;
+}

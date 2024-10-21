@@ -1,0 +1,17 @@
+color,fixedacidity
+color,volatileacidity
+color,citricacid
+color,residualsugar
+volatileacidity,citricacid
+volatileacidity,chlorides
+residualsugar,chlorides
+residualsugar,freesulfurdioxide
+residualsugar,density
+chlorides,freesulfurdioxide
+chlorides,density
+chlorides,sulphates
+freesulfurdioxide,totalsulfurdioxide
+totalsulfurdioxide,density
+totalsulfurdioxide,sulphates
+totalsulfurdioxide,alcohol
+density,alcohol
